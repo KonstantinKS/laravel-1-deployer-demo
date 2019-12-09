@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    $version = 2;
+    $version = '2.0.1';
 
-    return view('welcome', compact('version'));
+    return view('index', compact('version'));
 });
